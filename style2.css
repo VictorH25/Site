@@ -126,7 +126,7 @@ aside ul {
     columns: 2;
 }
 
-main p > a {
+main > p  a {
     color: var(--cor3);
     text-decoration: none;
 }
