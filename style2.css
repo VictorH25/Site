@@ -125,6 +125,11 @@ aside > p {
 aside ul {
     columns: 2;
 }
+
+p > a {
+    color: var(--cor3);
+    text-decoration: none;
+}
 footer {
     font-family: monospace;
     background-color: #0c2d1b;
