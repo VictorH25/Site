@@ -18,7 +18,7 @@
 }
 
 body { font-family: Arial, Helvetica, sans-serif;
-    background-color: #adf69285;
+    background-color: #d5fac885;
     text-align: justify;
 
 }
@@ -127,8 +127,13 @@ aside ul {
 }
 
 main > p  a {
-    color: var(--cor3);
+    color: black;
+    background-color: var(--cor1);
     text-decoration: none;
+}
+main > p  a:hover {
+    background-color: var(--cor2);
+    color: #ffffff;
 }
 footer {
     font-family: monospace;
